@@ -3,15 +3,16 @@
 Projeto da cadeira de humanismo redes e comunidades
 ## 👀 
 
+Versão do site: [clique aqui](https://alcateia-site.vercel.app/)
 <img src="https://raw.githubusercontent.com/JuscelinoMamede01/alcateia-site/main/src/images/site.png" width="100%">
 
 
 ## 🚀 Technologies
 
 Este projeto foi desenvolvido com as seguintes tecnologias:
-- [HTML](https://tailwindcss.com/ "Tailwind CSS")
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML "HTML5")
 - [Tailwind CSS](https://tailwindcss.com/ "Tailwind CSS")
-- [JavaScript](https://tailwindcss.com/ "Tailwind CSS")
+- [JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript "JS")
 
 
 
