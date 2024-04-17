@@ -29,6 +29,9 @@ $ git clone https://github.com/JuscelinoMamede01/alcateia-site.git
 # Accessing the repository
 $ cd alcateia-site
 
+# install node_modules
+$ npm install
+
 # run th build
 $ npm run build
 
