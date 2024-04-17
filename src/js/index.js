@@ -7,10 +7,16 @@ const contactLink = document.getElementById("contactLink");
 if (currentPath === "/src/index.html") {
   homeLink.classList.remove("text-white");
   homeLink.classList.add("text-red-500");
+  homeLink.classList.remove("hover:text-red-500");
+  homeLink.classList.add("hover:text-color2");
 } else if (currentPath === "/src/pages/about.html") {
   aboutLink.classList.remove("text-white");
   aboutLink.classList.add("text-red-500");
+  aboutLink.classList.remove("hover:text-red-500");
+  aboutLink.classList.add("hover:text-color2");
 } else if (currentPath === "/src/pages/contact.html") {
   contactLink.classList.remove("text-white");
   contactLink.classList.add("text-red-500");
+  contactLink.classList.remove("hover:text-red-500");
+  contactLink.classList.add("hover:text-color2");
 }
