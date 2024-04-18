@@ -1985,7 +1985,8 @@ input:checked + .toggle-bg {
 }
 
 body {
-  background-color: #09090B;
+  background-color: #09090b;
+  font-family: "Roboto Mono", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .hover\:border-gray-300:hover {

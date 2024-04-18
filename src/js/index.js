@@ -3,6 +3,9 @@ const currentPath = window.location.pathname;
 const homeLink = document.getElementById("homeLink");
 const aboutLink = document.getElementById("aboutLink");
 const contactLink = document.getElementById("contactLink");
+console.log("====================================");
+console.log(currentPath);
+console.log("====================================");
 
 if (currentPath === "/src/index.html") {
   homeLink.classList.remove("text-white");
