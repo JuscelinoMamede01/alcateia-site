@@ -35,7 +35,7 @@ $ npm install
 # run th build
 $ npm run build
 
-# use live server no index.html
+# run live server no index.html
 
 ```
 
