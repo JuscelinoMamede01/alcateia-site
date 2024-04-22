@@ -17,8 +17,18 @@ if (currentPath === "/src/index.html") {
   contactLink.classList.remove("text-white");
   contactLink.classList.add("text-red-500");
 }
+function submitForm(event) {
+  // Exibir mensagem de sucesso
+  const alertElement = document.querySelector(".alert-container");
+  alertElement.classList.remove("hidden"); // Tornar o alerta visível
 
-function limparFormulario(event) {
-  document.getElementById("contactForm").reset();
-  event.preventDefault();
+  // Opcionalmente, remover o alerta após um intervalo de tempo
+  setTimeout(() => {
+    alertElement.classList.add("hidden"); // Ocultar o alerta novamente
+  }, 3000); // Remover o alerta após 3 segundos (ajuste conforme necessário)
+
+  // Resetar o formulário após  segundos
+  setTimeout(() => {
+    document.getElementById("contactForm").reset(); // Resetar o formulário
+  }, 500);
 }

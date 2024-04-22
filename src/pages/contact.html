@@ -289,6 +289,7 @@
                   </div>
                   <div class="text-center md:w-[50%] w-full">
                     <button
+                      onclick="submitForm(event)"
                       type="submit"
                       class="w-full font-bold bg-blue-900 text-white px-6 py-3 font-xl rounded-md sm:mb-0"
                     >
@@ -296,6 +297,15 @@
                     </button>
                   </div>
                 </form>
+                <div class="alert-container hidden">
+                  <div
+                    class="bg-blue-100 border-t border-b border-blue-500 mt-4 text-blue-700 px-4 py-3"
+                    role="alert"
+                  >
+                    <p class="font-bold">Formulário enviado com sucesso!</p>
+                    <p class="text-sm">Obrigado por entrar em contato.</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -326,7 +336,6 @@
       </div>
     </footer>
     <script src="../js/index.js"></script>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
   </body>
 </html>
