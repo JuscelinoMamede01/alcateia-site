@@ -17,3 +17,8 @@ if (currentPath === "/src/index.html") {
   contactLink.classList.remove("text-white");
   contactLink.classList.add("text-red-500");
 }
+
+function limparFormulario(event) {
+  document.getElementById("contactForm").reset();
+  event.preventDefault();
+}
