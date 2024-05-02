@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}", "./node_modules/flowbite/**/*.js"],
 
   theme: {
+    backgroundImage: {
+      img_bg_hero: "url('../src/images/logo.png')",
+    },
     container: {
       center: "true",
     },
